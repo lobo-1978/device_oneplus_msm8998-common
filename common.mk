@@ -336,6 +336,10 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_oneplus
+    
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages      
 
 # RIL
 PRODUCT_PACKAGES += \
